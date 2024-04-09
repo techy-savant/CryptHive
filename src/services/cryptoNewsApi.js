@@ -5,8 +5,8 @@ const cryptoNewsHeaders = {
   "X-RapidAPI-Host": "crypto-news16.p.rapidapi.com",
 };
 
-// const baseUrl = 'https://crypto-news16.p.rapidapi.com';
-const baseUrl = 'banana';
+const baseUrl = 'https://crypto-news16.p.rapidapi.com';
+// const baseUrl = 'banana';
 
 const createRequest = (url) => ({ url, headers: cryptoNewsHeaders });
 
